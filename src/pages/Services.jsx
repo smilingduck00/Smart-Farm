@@ -7,11 +7,7 @@ import {
   SunIcon,
   MarketIcon,
   EducationIcon,
-  ChartIcon,
   LeafIcon,
-  SoilIcon,
-  WheatIcon,
-  UsersIcon,
   CheckIcon,
   ArrowRightIcon
 } from '../components/Icons';
@@ -70,39 +66,6 @@ const Services = () => {
       ],
       link: '/training',
       color: 'from-purple-500 to-violet-600'
-    }
-  ];
-
-  const additionalServices = [
-    {
-      icon: SoilIcon,
-      title: 'Torpaq Analizi',
-      description: 'Torpağın kimyəvi tərkibini, pH səviyyəsini və qida maddələrini analiz edin.'
-    },
-    {
-      icon: LeafIcon,
-      title: 'Bitki Xəstəlikləri',
-      description: 'Bitki xəstəliklərini erkən aşkar edin və müalicə üsullarını öyrənin.'
-    },
-    {
-      icon: WheatIcon,
-      title: 'Məhsul Planlaşdırma',
-      description: 'İqlim və torpaq şəraitinə uyğun optimal əkin planı hazırlayın.'
-    },
-    {
-      icon: ChartIcon,
-      title: 'Məhsuldarlıq Analizi',
-      description: 'Məhsuldarlığınızı izləyin və artırmaq üçün tövsiyələr alın.'
-    },
-    {
-      icon: UsersIcon,
-      title: 'Fermer Şəbəkəsi',
-      description: 'Digər fermerlərlə əlaqə qurun, təcrübə paylaşın.'
-    },
-    {
-      icon: LeafIcon,
-      title: 'Ekoloji Sertifikat',
-      description: 'Bio və ekoloji məhsul sertifikatları haqqında məlumat alın.'
     }
   ];
 
@@ -177,51 +140,6 @@ const Services = () => {
                   Ətraflı Məlumat
                   <ArrowRightIcon className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Link>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Additional Services */}
-      <section className="py-20 bg-gradient-to-br from-primary-50/50 via-white to-sky-50/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true, margin: "-50px" }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl font-display font-bold text-gray-800 mb-4">
-              {t('services.additionalTitle')}
-            </h2>
-            <p className="text-gray-600 max-w-xl mx-auto">
-              {t('services.additionalSubtitle')}
-            </p>
-          </motion.div>
-
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {additionalServices.map((service, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true, margin: "-50px" }}
-                className="flex items-start space-x-4 p-6 rounded-2xl bg-white/80 backdrop-blur-sm border border-white/50 hover:shadow-xl transition-all duration-300"
-              >
-                <div className="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <service.icon className="w-6 h-6 text-primary-600" />
-                </div>
-                <div>
-                  <h4 className="text-lg font-display font-semibold text-gray-800 mb-2">
-                    {service.title}
-                  </h4>
-                  <p className="text-gray-600 text-sm leading-relaxed">
-                    {service.description}
-                  </p>
-                </div>
               </motion.div>
             ))}
           </div>
