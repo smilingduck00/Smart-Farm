@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-size: 16px; /* Base font size for accessibility */
+  }
+  
+  body {
+    @apply font-body text-gray-800 antialiased transition-colors duration-300;
+    background: linear-gradient(135deg, #f0fdf4 0%, #fefdfb 50%, #f0f9ff 100%);
+    min-height: 100vh;
+    overflow-x: hidden;
+    overscroll-behavior: none;
+    line-height: 1.6; /* Improved line height for readability */
+    letter-spacing: 0.01em; /* Slight letter spacing for better readability */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .dark body,
+  body.dark {
+    @apply text-gray-100;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0c4a6e 100%);
+  }
+
+  html.dark {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0c4a6e 100%);
+  }
+
+  html.dark body {
+    @apply text-gray-100;
+    background: transparent;
+  }
+
+  #root {
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-semibold;
+    line-height: 1.3; /* Tighter line height for headings */
+    margin-bottom: 0.5em;
+  }
+
+  /* Font size accessibility classes */
+  html.font-small {
+    font-size: 14px;
+  }
+
+  html.font-normal {
+    font-size: 16px;
+  }
+
+  html.font-large {
+    font-size: 18px;
+  }
+
+  html.font-xlarge {
+    font-size: 20px;
+  }
+
+  /* High contrast mode */
+  html.high-contrast {
+    --primary-600: #0066cc;
+    --primary-700: #0052a3;
+    --gray-800: #000000;
+    --gray-600: #333333;
+    --gray-300: #666666;
+    --white: #ffffff;
+  }
+
+  html.high-contrast body {
+    background: #ffffff;
+    color: #000000;
+  }
+
+  html.high-contrast.dark body {
+    background: #000000;
+    color: #ffffff;
+  }
+
+  /* Reduced motion */
+  html.reduce-motion *,
+  html.reduce-motion *::before,
+  html.reduce-motion *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  * {
+    scroll-behavior: smooth;
+  }
+
+  /* Skip to main content link */
+  .skip-to-main {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 1rem;
+    z-index: 100;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .skip-to-main:focus {
+    top: 0;
+  }
+}
+
+@layer components {
+  /* Primary Button */
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary-600 to-primary-700 text-white px-4 py-2.5 
+           lg:px-5 lg:py-2.5 rounded-lg font-semibold 
+           shadow-md shadow-primary-500/25 hover:shadow-lg hover:shadow-primary-500/35 
+           transform hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 
+           focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2
+           dark:from-primary-500 dark:to-primary-600 dark:shadow-primary-500/20
+           text-sm lg:text-sm;
+  }
+
+  /* Secondary Button */
+  .btn-secondary {
+    @apply bg-white text-primary-700 px-4 py-2.5 lg:px-5 lg:py-2.5 rounded-lg font-semibold 
+           border border-primary-200 hover:border-primary-400 hover:bg-primary-50
+           transform hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200
+           focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2
+           dark:bg-dark-800 dark:text-primary-400 dark:border-dark-600 
+           dark:hover:bg-dark-700 dark:hover:border-primary-500
+           text-sm lg:text-sm;
+  }
+
+  /* Earth Button */
+  .btn-earth {
+    @apply bg-gradient-to-r from-earth-600 to-earth-700 text-white px-4 py-2.5 
+           lg:px-6 lg:py-3 rounded-xl font-semibold 
+           shadow-lg shadow-earth-500/30 hover:shadow-xl hover:shadow-earth-500/40 
+           transform hover:-translate-y-0.5 transition-all duration-300
+           text-sm lg:text-base;
+  }
+
+  /* Card Styles */
+  .card {
+    @apply bg-white/90 backdrop-blur-sm rounded-xl shadow-lg shadow-gray-200/40 
+           border border-gray-100/80 overflow-hidden transition-all duration-200 
+           hover:shadow-xl hover:shadow-gray-300/50 hover:-translate-y-0.5
+           dark:bg-dark-800/90 dark:border-dark-700/60 dark:shadow-dark-900/40
+           dark:hover:shadow-dark-900/60;
+  }
+
+  .card-glass {
+    @apply bg-white/60 backdrop-blur-lg rounded-2xl border border-white/30 
+           shadow-xl shadow-gray-200/30
+           dark:bg-dark-800/60 dark:border-dark-700/30 dark:shadow-dark-900/30;
+  }
+
+  /* Gradient Text */
+  .gradient-text {
+    background: linear-gradient(to right, 
+      rgb(22 163 74), 
+      rgb(21 128 61) 50%, 
+      rgb(21 128 61) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+  
+  .dark .gradient-text {
+    background: linear-gradient(to right, 
+      rgb(74 222 128), 
+      rgb(34 197 94) 50%, 
+      rgb(34 197 94) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  /* Section Titles */
+  .section-title {
+    @apply text-2xl md:text-3xl lg:text-4xl font-display font-bold text-center mb-6 lg:mb-8
+           dark:text-white;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+  }
+
+  .section-subtitle {
+    @apply text-base lg:text-lg text-gray-600 text-center max-w-3xl mx-auto mb-12 lg:mb-16
+           dark:text-gray-300;
+    line-height: 1.7;
+    padding: 0 1rem;
+  }
+
+  /* Input Field */
+  .input-field {
+    @apply w-full px-3 py-2.5 lg:px-4 lg:py-3 rounded-lg border border-gray-200 
+           bg-white/70 backdrop-blur-sm
+           focus:border-primary-500 focus:ring-2 focus:ring-primary-500/20 
+           transition-all duration-200 outline-none
+           dark:bg-dark-800/70 dark:border-dark-600 dark:text-white
+           dark:focus:border-primary-400 dark:placeholder-gray-400
+           text-sm lg:text-base;
+  }
+
+  .form-label {
+    @apply block text-sm font-semibold text-gray-700 mb-2 dark:text-gray-300;
+  }
+
+  .form-input {
+    @apply w-full px-4 py-3 rounded-lg border border-gray-200 bg-white/80 
+           focus:border-primary-500 focus:ring-2 focus:ring-primary-500/20 
+           transition-all duration-200 outline-none text-gray-800
+           dark:bg-dark-800 dark:border-dark-600 dark:text-gray-100
+           placeholder:text-gray-400 dark:placeholder:text-gray-500;
+  }
+
+  /* Navigation Link */
+  .nav-link {
+    @apply relative text-gray-700 font-medium hover:text-primary-600 
+           transition-colors duration-300
+           after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 
+           after:bg-primary-600 after:transition-all after:duration-300 hover:after:w-full
+           dark:text-gray-200 dark:hover:text-primary-400 dark:after:bg-primary-400;
+  }
+
+  .nav-link-active {
+    @apply text-primary-600 after:w-full dark:text-primary-400;
+  }
+
+  /* Theme Toggle Button */
+  .theme-toggle {
+    @apply p-2 rounded-lg bg-gray-100 hover:bg-gray-200 
+           dark:bg-dark-700 dark:hover:bg-dark-600
+           transition-all duration-200 text-gray-600 dark:text-gray-300
+           focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+
+  /* Dark Mode Text Colors */
+  .text-dark-adaptive {
+    @apply text-gray-800 dark:text-gray-100;
+  }
+
+  .text-dark-muted {
+    @apply text-gray-600 dark:text-gray-400;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Container padding responsive */
+  .container-padding {
+    @apply px-4 sm:px-5 md:px-6 lg:px-8;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-dark-800 rounded-full;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary-400 dark:bg-primary-600 rounded-full 
+         hover:bg-primary-500 dark:hover:bg-primary-500 transition-colors;
+}
+
+/* Selection */
+::selection {
+  @apply bg-primary-200 text-primary-900 dark:bg-primary-800 dark:text-primary-100;
+}
+
+/* Focus visible - Enhanced for accessibility */
+/* :focus-visible {
+  @apply outline-none ring-3 ring-primary-500 ring-offset-3 
+         dark:ring-offset-dark-900;
+  outline: 3px solid transparent;
+  outline-offset: 2px;
+} */
+
+:focus-visible {
+  @apply outline-none ring-2 ring-primary-500 ring-offset-2 
+         dark:ring-offset-dark-900;
+  outline: 3px solid transparent;
+  outline-offset: 2px;
+}
+
+
+/* Better focus for interactive elements */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  @apply ring-2 ring-primary-500 ring-offset-2;
+}
+
+/* Improved spacing utilities */
+.spacing-section {
+  @apply py-16 lg:py-24;
+}
+
+.spacing-content {
+  @apply space-y-8 lg:space-y-12;
+}
+
+/* Better text contrast */
+.text-readable {
+  @apply text-gray-700 dark:text-gray-200;
+  line-height: 1.8;
+}
+
+/* Card spacing improvements */
+.card-spacing {
+  @apply p-5 lg:p-6;
+  @apply space-y-4;
+}
+
+/* Smooth transitions for all interactive elements */
+a, button {
+  @apply transition-all duration-200;
+}
+
+/* Professional link hover effects */
+a:not(.btn-primary):not(.btn-secondary):not(.btn-earth) {
+  @apply transition-colors duration-200;
+}
+
+/* Screen reader only content */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: inherit;
+  margin: inherit;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}

@@ -1,0 +1,301 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "skipToMain": "Skip to main content",
+    "home": "Home",
+    "services": "Services",
+    "aiAssistant": "AI Assistant",
+    "weather": "Weather",
+    "market": "Market",
+    "events": "Events",
+    "training": "Training",
+    "contact": "Contact",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "farmer": "Farmer",
+    "buyer": "Buyer",
+    "buyerMarket": "Farmer Market",
+    "mainNavigation": "Main navigation",
+    "mobileMenu": "Mobile navigation menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "lightMode": "Switch to light mode",
+    "darkMode": "Switch to dark mode",
+    "logoutLabel": "Logout from account"
+  },
+  "navbar": {
+    "tagline": "Farmer Support Platform",
+    "userRole": "{{role}}"
+  },
+  "home": {
+    "ecoPlatform": "Eco-Oriented Platform",
+    "title": "Farmer Support Platform",
+    "subtitle": "We are with farmers in digital transformation in agriculture. AI support, real-time data and expert consultation.",
+    "chatWithAI": "Chat with AI",
+    "exploreServices": "Explore Services",
+    "stats": {
+      "activeFarmers": "Active Farmers",
+      "satisfaction": "Satisfaction",
+      "support": "Support",
+      "coverage": "District Coverage"
+    },
+    "services": {
+      "title": "Our Services",
+      "heading": "Comprehensive Support",
+      "subtitle": "We provide modern and effective support to farmers in finance, ecology, agro-technical and sales areas.",
+      "aiAssistant": {
+        "title": "AI Assistant",
+        "description": "Find answers to all your questions with artificial intelligence support."
+      },
+      "weather": {
+        "title": "Weather Forecast",
+        "description": "Accurate weather data and forecasts in real time."
+      },
+      "market": {
+        "title": "Market Information",
+        "description": "Live price information and sales opportunities."
+      },
+      "events": {
+        "title": "Events",
+        "description": "Events platform for farmers. Create an event or join if you need help."
+      },
+      "training": {
+        "title": "Training Programs",
+        "description": "Modern farming methods and agro-technical knowledge."
+      }
+    },
+    "features": {
+      "whyUs": "Why Us?",
+      "heading": "Sustainable and Innovative Agriculture",
+      "description": "The main goal of the project is to transform agriculture into a more sustainable, environmentally friendly and innovative system.",
+      "soilAnalytics": {
+        "title": "Soil Analytics",
+        "description": "Analyze soil quality."
+      },
+      "ecoApproach": {
+        "title": "Ecological Approach",
+        "description": "Implement sustainable agriculture."
+      },
+      "modernTech": {
+        "title": "Modern Technology",
+        "description": "Use the latest technologies."
+      },
+      "cropPlanning": {
+        "title": "Crop Planning",
+        "description": "Create an optimal planting plan."
+      },
+      "smartFarming": "Smart Farming",
+      "productivity": "Productivity",
+      "waterConsumption": "Water Consumption"
+    },
+    "aiPreview": {
+      "badge": "Smart Problem Solver AI",
+      "heading": "Your Smart Assistant",
+      "description": "Our AI assistant answers farmers' questions, analyzes risks and offers solutions. 24/7 support.",
+      "chatWithAI": "Chat with AI",
+      "aiGreeting": "Hello! I am EcoGrow AI assistant. How can I help you?",
+      "userMessage": "I have yellow spots on my tomatoes",
+      "aiResponse": "This could be leaf burn. Cut the damaged leaves..."
+    },
+    "cta": {
+      "heading": "Ready? Let's Start!",
+      "description": "Join the digital transformation in agriculture.",
+      "contactUs": "Contact Us",
+      "moreInfo": "More Information"
+    }
+  },
+  "footer": {
+    "tagline": "Farmer Support Platform",
+    "description": "Created with the aim of accelerating digital transformation in agriculture and creating a reliable digital assistant for every farmer.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved",
+    "weatherInfo": "Weather Information"
+  },
+  "about": {
+    "badge": "About Us",
+    "title": "EcoGrow – Your Product's New Value Destination",
+    "paragraph1": "A portion of the products grown by farmers reaches the markets, while the rest turns into food waste, increasing methane and CO₂ emissions. EcoGrow solves this problem: showcase your unsold products on our platform, find buyers, and promote them. At the same time, with the AI tools on our site, you can detect spoilage and pest risks in time, growing healthy, high-quality, and waste-free products.",
+    "paragraph2": "EcoGrow – The new name of ecological innovation",
+    "paragraph3": "At the same time, thanks to the AI tools on our website, detect decay and pest risks in time and grow healthy, quality and waste-free products.",
+    "conclusion": "EcoGrow – A Smarter Future"
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Contact Us",
+    "subtitle": "Contact us for your questions, suggestions or collaboration. Our team is ready to help you.",
+    "sendMessage": "Send Message",
+    "findUs": "Find Us",
+    "socialNetworks": "Social Networks",
+    "faq": "Frequently Asked Questions",
+    "form": {
+      "name": "Full Name *",
+      "namePlaceholder": "Enter your name",
+      "email": "Email *",
+      "emailPlaceholder": "example@mail.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+994 50 123 45 67",
+      "subject": "Subject *",
+      "subjectPlaceholder": "Select subject",
+      "message": "Your Message *",
+      "messagePlaceholder": "Write your message here...",
+      "send": "Send Message",
+      "cancel": "Cancel"
+    },
+    "subjects": {
+      "select": "Select subject",
+      "general": "General question",
+      "support": "Technical support",
+      "partnership": "Partnership",
+      "feedback": "Feedback and suggestions"
+    },
+    "success": {
+      "title": "Thank You!",
+      "message": "Your message has been sent successfully. We will contact you as soon as possible."
+    },
+    "faqItems": {
+      "q1": "How does the AI assistant work?",
+      "a1": "Our AI assistant works based on artificial intelligence technology and answers farmers' questions about agriculture.",
+      "q2": "Are the services paid?",
+      "a2": "Basic services are free. Monthly subscription plans are available for premium features.",
+      "q3": "How can I register?",
+      "a3": "You can register through a simple process by entering the \"Sign Up\" section on our website."
+    }
+  },
+  "training": {
+    "badge": "Training Programs",
+    "title": "Enhance Your Knowledge",
+    "subtitle": "Join our training programs for modern farming methods, agro-technical knowledge and professional certificates.",
+    "availableCourses": "Available Courses",
+    "additionalServices": "Additional Services",
+    "additionalServicesSubtitle": "Additional support services to further develop your farming activities",
+    "upcomingEvents": "Upcoming Events",
+    "personalTraining": "Personal Training",
+    "personalTrainingDescription": "Want a specially designed training program for your team?",
+    "register": "Register",
+    "view": "View",
+    "categories": {
+      "all": "All",
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "stats": {
+      "activeCourses": "Active courses",
+      "graduates": "Graduates",
+      "averageRating": "Average rating",
+      "videoHours": "Video hours"
+    },
+    "registration": {
+      "personalTitle": "Personal Training Registration",
+      "eventTitle": "Event Registration",
+      "emailLabel": "Email Address *",
+      "emailPlaceholder": "example@mail.com",
+      "description": "Enter your email address to receive information about a specially designed training program for your team.",
+      "eventDescription": "Enter your email address to register for this event.",
+      "send": "Send",
+      "cancel": "Cancel",
+      "successTitle": "Thank You!",
+      "successTraining": "Training invitation",
+      "successEvent": "Event invitation",
+      "successSent": "has been sent to"
+    }
+  },
+  "events": {
+    "badge": "Events Platform",
+    "title": "Farmer Events",
+    "subtitle": "Create an event if you need help or join other farmers' events. Together we are stronger!",
+    "searchPlaceholder": "Search events...",
+    "filterAllTypes": "All Types",
+    "filterAllPayments": "All Payments",
+    "createEvent": "Create Event",
+    "noEvents": "No events found",
+    "types": {
+      "harvest": "Harvest",
+      "planting": "Planting",
+      "irrigation": "Irrigation",
+      "maintenance": "Maintenance",
+      "workshop": "Training",
+      "other": "Other"
+    },
+    "payment": {
+      "free": "Free",
+      "paid": "Paid",
+      "barter": "Barter"
+    },
+    "details": "Details",
+    "join": "Join",
+    "full": "Full",
+    "participants": "participants",
+    "organizer": "Organizer Information",
+    "organizerName": "Name:",
+    "organizerPhone": "Phone:",
+    "create": {
+      "title": "Create New Event",
+      "form": {
+        "title": "Title *",
+        "titlePlaceholder": "E.g.: Help with Tomato Harvest",
+        "description": "Description *",
+        "descriptionPlaceholder": "Detailed information about the event...",
+        "type": "Event Type *",
+        "maxParticipants": "Maximum Participants *",
+        "location": "Location *",
+        "locationPlaceholder": "E.g.: Baku, Garadagh",
+        "date": "Date *",
+        "time": "Time *",
+        "duration": "Duration *",
+        "durationPlaceholder": "E.g.: 6 hours",
+        "paymentType": "Payment Type *",
+        "paymentAmount": "Payment Amount",
+        "paymentAmountPlaceholder": "E.g.: 50 ₼",
+        "paymentDescription": "Payment Description",
+        "paymentDescriptionPlaceholder": "E.g.: Daily payment",
+        "image": "Image URL (Optional)",
+        "imagePlaceholder": "https://example.com/image.jpg",
+        "create": "Create Event",
+        "cancel": "Cancel",
+        "required": "Please fill in all required fields",
+        "success": "Event created successfully!"
+      }
+    },
+    "modal": {
+      "back": "Back",
+      "joinEvent": "Join Event",
+      "eventFull": "Event is Full",
+      "joinSuccess": "Thank you for joining the event! The organizer will contact you."
+    }
+  },
+  "login": {
+    "title": "Log in to your EcoGrow account",
+    "subtitle": "By logging into the EcoGrow platform, you can benefit from all our services.",
+    "signupLink": "Sign Up"
+  },
+  "signup": {
+    "title": "Join EcoGrow"
+  },
+  "aiAssistant": {
+    "quickQuestions": {
+      "diseases": "Plant diseases",
+      "weather": "Weather recommendations",
+      "irrigation": "Irrigation plan",
+      "seasonal": "Seasonal planting",
+      "productivity": "Productivity"
+    },
+    "initialMessage": "Hello! I am EcoGrow AI assistant. I am ready to answer any of your questions about agriculture. How can I help you?"
+  },
+  "services": {
+    "badge": "Our Services",
+    "title": "Comprehensive Solutions for Farmers",
+    "subtitle": "We present our services with the aim of accelerating digital transformation in agriculture and creating a reliable digital assistant for every farmer.",
+    "additionalTitle": "Additional Services",
+    "additionalSubtitle": "Additional support services to further develop your farming activities",
+    "ctaTitle": "Use Our Services",
+    "ctaDescription": "Chat with our AI assistant, ask your questions and develop your farming activities.",
+    "chatWithAI": "Chat with AI",
+    "contactUs": "Contact Us"
+  }
+}
+

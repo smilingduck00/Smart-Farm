@@ -1,0 +1,301 @@
+{
+  "common": {
+    "loading": "Yüklənir...",
+    "skipToMain": "Əsas məzmuna keç",
+    "home": "Ana Səhifə",
+    "services": "Xidmətlər",
+    "aiAssistant": "AI Köməkçi",
+    "weather": "Hava",
+    "market": "Bazar",
+    "events": "Tədbirlər",
+    "training": "Təlimlər",
+    "contact": "Əlaqə",
+    "login": "Giriş",
+    "signup": "Qeydiyyat",
+    "logout": "Çıxış",
+    "farmer": "Fermer",
+    "buyer": "Alıcı",
+    "buyerMarket": "Fermer Bazarı",
+    "mainNavigation": "Əsas naviqasiya",
+    "mobileMenu": "Mobil naviqasiya menyusu",
+    "openMenu": "Menyunu aç",
+    "closeMenu": "Menyunu bağla",
+    "lightMode": "Açıq rejimə keç",
+    "darkMode": "Qaranlıq rejimə keç",
+    "logoutLabel": "Hesabdan çıxış"
+  },
+  "navbar": {
+    "tagline": "Fermer Kömək Platforması",
+    "userRole": "{{role}}"
+  },
+  "home": {
+    "ecoPlatform": "Ekoloji Yönümlü Platforma",
+    "title": "Fermer Kömək Platforması",
+    "subtitle": "Kənd təsərrüfatında rəqəmsal transformasiya ilə fermerlərinizin yanındayıq. AI dəstəyi, real vaxtda məlumatlar və expert konsultasiyası.",
+    "chatWithAI": "AI ilə Söhbət Et",
+    "exploreServices": "Xidmətləri Kəşf Et",
+    "stats": {
+      "activeFarmers": "Aktiv Fermer",
+      "satisfaction": "Məmnuniyyət",
+      "support": "Dəstək",
+      "coverage": "Rayon Əhatəsi"
+    },
+    "services": {
+      "title": "Xidmətlərimiz",
+      "heading": "Hərtərəfli Dəstək",
+      "subtitle": "Fermerlərə maliyyə, ekoloji, aqrotexniki və satış sahələrində modern və effektiv dəstək təqdim edirik.",
+      "aiAssistant": {
+        "title": "AI Köməkçi",
+        "description": "Süni intellekt dəstəyi ilə bütün suallarınıza cavab tapın."
+      },
+      "weather": {
+        "title": "Hava Proqnozu",
+        "description": "Real vaxtda dəqiq hava məlumatları və proqnozları."
+      },
+      "market": {
+        "title": "Bazar Məlumatları",
+        "description": "Canlı qiymət məlumatları və satış imkanları."
+      },
+      "events": {
+        "title": "Tədbirlər",
+        "description": "Fermerlər üçün tədbirlər platforması. Kömək lazımdırsa tədbir yaradın və ya qoşulun."
+      },
+      "training": {
+        "title": "Təlim Proqramları",
+        "description": "Müasir əkinçilik metodları və aqro-texniki biliklər."
+      }
+    },
+    "features": {
+      "whyUs": "Niyə Biz?",
+      "heading": "Dayanıqlı və İnnovativ Kənd Təsərrüfatı",
+      "description": "Layihənin əsas hədəfi kənd təsərrüfatını daha dayanıqlı, ekoloji təmiz və innovativ bir sistemə çevirməkdir.",
+      "soilAnalytics": {
+        "title": "Torpaq Analitikası",
+        "description": "Torpağın keyfiyyətini analiz edin."
+      },
+      "ecoApproach": {
+        "title": "Ekoloji Yanaşma",
+        "description": "Davamlı kənd təsərrüfatı həyata keçirin."
+      },
+      "modernTech": {
+        "title": "Müasir Texnologiya",
+        "description": "Ən son texnologiyalardan istifadə edin."
+      },
+      "cropPlanning": {
+        "title": "Məhsul Planlaması",
+        "description": "Optimal əkin planı hazırlayın."
+      },
+      "smartFarming": "Smart Fermerlik",
+      "productivity": "Məhsuldarlıq",
+      "waterConsumption": "Su İstehlakı"
+    },
+    "aiPreview": {
+      "badge": "Smart Problem Solver AI",
+      "heading": "Ağıllı Köməkçiniz",
+      "description": "AI köməkçimiz fermerlərin suallarını cavablandırır, riskləri təhlil edir və həll yolları təklif edir. 24/7 dəstək.",
+      "chatWithAI": "AI ilə Söhbət Et",
+      "aiGreeting": "Salam! Mən EcoGrow AI köməkçisiyəm. Sizə necə kömək edə bilərəm?",
+      "userMessage": "Pomidorlarımda sarı ləkələr var",
+      "aiResponse": "Bu, yarpaq yanıqlığı ola bilər. Zədələnmiş yarpaqları kəsin..."
+    },
+    "cta": {
+      "heading": "Hazırsınız? Başlayaq!",
+      "description": "Kənd təsərrüfatında rəqəmsal transformasiyaya qoşulun.",
+      "contactUs": "Bizimlə Əlaqə",
+      "moreInfo": "Daha Çox Məlumat"
+    }
+  },
+  "footer": {
+    "tagline": "Fermer Kömək Platforması",
+    "description": "Kənd təsərrüfatında rəqəmsal transformasiyanı sürətləndirmək və hər bir fermer üçün etibarlı rəqəmsal köməkçi yaratmaq məqsədi ilə yaradılmışdır.",
+    "quickLinks": "Sürətli Keçidlər",
+    "services": "Xidmətlər",
+    "contact": "Əlaqə",
+    "followUs": "Bizi İzləyin",
+    "rights": "Bütün hüquqlar qorunur",
+    "weatherInfo": "Hava Məlumatı"
+  },
+  "about": {
+    "badge": "Haqqımızda",
+    "title": "EcoGrow – Məhsulunuzun yeni dəyər ünvanı",
+    "paragraph1": "Fermerlərin yetişdirdiyi məhsulların bir hissəsi bazarlara çıxır, qalanı isə ərzaq tullantısına çevrilərək metan və CO₂ emissiyalarını artırır. EcoGrow bu problemi həll edir: satılmayan məhsullarınızı platformamızda təqdim edib alıcı tapın və reklam edin. Eyni zamanda, saytımızdakı AI alətləri sayəsində çürümə və zərərverici risklərini vaxtında aşkarlayaraq sağlam, keyfiyyətli və tullantsız məhsul yetişdirin.",
+    "paragraph2": "EcoGrow – Ekoloji innovasiyanın yeni adı",
+    "paragraph3": "Eyni zamanda, saytımızdakı AI alətləri sayəsində çürümə və zərərverici risklərini vaxtında aşkarlayaraq sağlam, keyfiyyətli və tullantsız məhsul yetişdirin.",
+    "conclusion": "EcoGrow – Daha ağıllı gələcək"
+  },
+  "contact": {
+    "badge": "Əlaqə",
+    "title": "Bizimlə Əlaqə Saxlayın",
+    "subtitle": "Suallarınız, təklifləriniz və ya əməkdaşlıq üçün bizimlə əlaqə saxlayın. Komandamız sizə kömək etməyə hazırdır.",
+    "sendMessage": "Mesaj Göndərin",
+    "findUs": "Bizi Tapın",
+    "socialNetworks": "Sosial Şəbəkələr",
+    "faq": "Tez-tez Verilən Suallar",
+    "form": {
+      "name": "Ad, Soyad *",
+      "namePlaceholder": "Adınızı daxil edin",
+      "email": "E-poçt *",
+      "emailPlaceholder": "example@mail.com",
+      "phone": "Telefon",
+      "phonePlaceholder": "+994 50 123 45 67",
+      "subject": "Mövzu *",
+      "subjectPlaceholder": "Mövzu seçin",
+      "message": "Mesajınız *",
+      "messagePlaceholder": "Mesajınızı bura yazın...",
+      "send": "Mesaj Göndər",
+      "cancel": "Ləğv Et"
+    },
+    "subjects": {
+      "select": "Mövzu seçin",
+      "general": "Ümumi sual",
+      "support": "Texniki dəstək",
+      "partnership": "Əməkdaşlıq",
+      "feedback": "Rəy və təklif"
+    },
+    "success": {
+      "title": "Təşəkkür Edirik!",
+      "message": "Mesajınız uğurla göndərildi. Ən qısa zamanda sizinlə əlaqə saxlayacağıq."
+    },
+    "faqItems": {
+      "q1": "AI köməkçi necə işləyir?",
+      "a1": "AI köməkçimiz süni intellekt texnologiyası əsasında işləyir və fermerlərə kənd təsərrüfatı ilə bağlı suallarına cavab verir.",
+      "q2": "Xidmətlər pulludurmu?",
+      "a2": "Əsas xidmətlər pulsuzdur. Premium funksiyalar üçün aylıq abunə planları mövcuddur.",
+      "q3": "Necə qeydiyyatdan keçə bilərəm?",
+      "a3": "Veb-saytımızda \"Qeydiyyat\" bölməsinə daxil olaraq sadə proseslə qeydiyyatdan keçə bilərsiniz."
+    }
+  },
+  "training": {
+    "badge": "Təlim Proqramları",
+    "title": "Biliklərinizi Artırın",
+    "subtitle": "Müasir əkinçilik metodları, aqro-texniki biliklər və peşəkar sertifikatlar üçün təlim proqramlarımıza qoşulun.",
+    "availableCourses": "Mövcud Kurslar",
+    "additionalServices": "Əlavə Xidmətlər",
+    "additionalServicesSubtitle": "Fermerlik fəaliyyətinizi daha da inkişaf etdirmək üçün əlavə dəstək xidmətləri",
+    "upcomingEvents": "Gələcək Tədbirlər",
+    "personalTraining": "Fərdi Təlim",
+    "personalTrainingDescription": "Komandanız üçün xüsusi hazırlanmış təlim proqramı istəyirsiniz?",
+    "register": "Qeydiyyat",
+    "view": "Bax",
+    "categories": {
+      "all": "Hamısı",
+      "beginner": "Başlanğıc",
+      "intermediate": "Orta",
+      "advanced": "Qabaqcıl"
+    },
+    "stats": {
+      "activeCourses": "Aktiv kurs",
+      "graduates": "Məzun",
+      "averageRating": "Orta reytinq",
+      "videoHours": "Saat video"
+    },
+    "registration": {
+      "personalTitle": "Fərdi Təlim Qeydiyyatı",
+      "eventTitle": "Tədbir Qeydiyyatı",
+      "emailLabel": "E-poçt Ünvanı *",
+      "emailPlaceholder": "example@mail.com",
+      "description": "Komandanız üçün xüsusi hazırlanmış təlim proqramı haqqında məlumat almaq üçün e-poçt ünvanınızı daxil edin.",
+      "eventDescription": "Bu tədbirə qeydiyyatdan keçmək üçün e-poçt ünvanınızı daxil edin.",
+      "send": "Göndər",
+      "cancel": "Ləğv Et",
+      "successTitle": "Təşəkkür Edirik!",
+      "successTraining": "Təlimə dəvətnamə",
+      "successEvent": "Tədbirə dəvətnamə",
+      "successSent": "ünvanına göndərildi."
+    }
+  },
+  "events": {
+    "badge": "Tədbirlər Platforması",
+    "title": "Fermer Tədbirləri",
+    "subtitle": "Kömək lazımdırsa tədbir yaradın və ya digər fermerlərin tədbirlərinə qoşulun. Birlikdə daha güclüyük!",
+    "searchPlaceholder": "Tədbir axtarın...",
+    "filterAllTypes": "Bütün Növlər",
+    "filterAllPayments": "Bütün Ödənişlər",
+    "createEvent": "Tədbir Yaradın",
+    "noEvents": "Heç bir tədbir tapılmadı",
+    "types": {
+      "harvest": "Məhsul Yığımı",
+      "planting": "Əkin",
+      "irrigation": "Suvarma",
+      "maintenance": "Baxım",
+      "workshop": "Təlim",
+      "other": "Digər"
+    },
+    "payment": {
+      "free": "Pulsuz",
+      "paid": "Ödənişli",
+      "barter": "Mübadilə"
+    },
+    "details": "Ətraflı",
+    "join": "Qoşul",
+    "full": "Dolu",
+    "participants": "iştirakçı",
+    "organizer": "Təşkilatçı Məlumatları",
+    "organizerName": "Ad:",
+    "organizerPhone": "Telefon:",
+    "create": {
+      "title": "Yeni Tədbir Yaradın",
+      "form": {
+        "title": "Başlıq *",
+        "titlePlaceholder": "Məsələn: Pomidor Yığımına Kömək",
+        "description": "Təsvir *",
+        "descriptionPlaceholder": "Tədbir haqqında ətraflı məlumat...",
+        "type": "Tədbir Növü *",
+        "maxParticipants": "Maksimum İştirakçı *",
+        "location": "Yer *",
+        "locationPlaceholder": "Məsələn: Bakı, Qaradağ",
+        "date": "Tarix *",
+        "time": "Vaxt *",
+        "duration": "Müddət *",
+        "durationPlaceholder": "Məsələn: 6 saat",
+        "paymentType": "Ödəniş Növü *",
+        "paymentAmount": "Ödəniş Məbləği",
+        "paymentAmountPlaceholder": "Məsələn: 50 ₼",
+        "paymentDescription": "Ödəniş Təsviri",
+        "paymentDescriptionPlaceholder": "Məsələn: Günlük ödəniş",
+        "image": "Şəkil URL (İstəyə bağlı)",
+        "imagePlaceholder": "https://example.com/image.jpg",
+        "create": "Tədbir Yaradın",
+        "cancel": "Ləğv Et",
+        "required": "Zəhmət olmasa bütün məcburi sahələri doldurun",
+        "success": "Tədbir uğurla yaradıldı!"
+      }
+    },
+    "modal": {
+      "back": "Geri",
+      "joinEvent": "Tədbirə Qoşul",
+      "eventFull": "Tədbir Doludur",
+      "joinSuccess": "Tədbirə qoşulduğunuz üçün təşəkkürlər! Təşkilatçı sizinlə əlaqə saxlayacaq."
+    }
+  },
+  "login": {
+    "title": "EcoGrow hesabınıza daxil olun",
+    "subtitle": "EcoGrow platformasına daxil olaraq, bütün xidmətlərimizdən yararlana bilərsiniz.",
+    "signupLink": "Qeydiyyatdan keç"
+  },
+  "signup": {
+    "title": "EcoGrow-a qoşul"
+  },
+  "aiAssistant": {
+    "quickQuestions": {
+      "diseases": "Bitki xəstəlikləri",
+      "weather": "Hava tövsiyələri",
+      "irrigation": "Suvarma planı",
+      "seasonal": "Mövsümə görə əkin",
+      "productivity": "Məhsuldarlıq"
+    },
+    "initialMessage": "Salam! Mən EcoGrow AI köməkçisiyəm. Kənd təsərrüfatı ilə bağlı istənilən sualınıza cavab verməyə hazıram. Sizə necə kömək edə bilərəm?"
+  },
+  "services": {
+    "badge": "Xidmətlərimiz",
+    "title": "Fermerlər üçün Hərtərəfli Həllər",
+    "subtitle": "Kənd təsərrüfatında rəqəmsal transformasiyanı sürətləndirmək və hər bir fermer üçün etibarlı rəqəmsal köməkçi yaratmaq məqsədi ilə xidmətlərimizi təqdim edirik.",
+    "additionalTitle": "Əlavə Xidmətlər",
+    "additionalSubtitle": "Fermerlik fəaliyyətinizi daha da inkişaf etdirmək üçün əlavə dəstək xidmətləri",
+    "ctaTitle": "Xidmətlərimizdən Yararlanın",
+    "ctaDescription": "AI köməkçimiz ilə söhbət edin, suallarınızı verin və fermerlik fəaliyyətinizi inkişaf etdirin.",
+    "chatWithAI": "AI ilə Söhbət",
+    "contactUs": "Bizimlə Əlaqə"
+  }
+}
+
